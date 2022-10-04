@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>New Pocemon</title>
+  </head>
+  <body>
+    <header class="pt-4 pb-4">
+      <div class="container">
+        <div class="logo"></div>
+      </div>
+    </header>
+    <section class="nev__pocemon">
+      <div class="container">
+        <ul class="pocemon__list list-unstyled row mt-5"></ul>
+      </div>
+    </section>
+    <template class="el-template">
+      <li class="pocemon__item col-3 text-center mb-4">
+        <h3 class="pocemon__title"></h3>
+        <img class="pocemon__img" src="" alt="" />
+        <p class="pocemon__text text-danger mt-2"></p>
+      </li>
+    </template>
+
+    <script src="./js/pokemons.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

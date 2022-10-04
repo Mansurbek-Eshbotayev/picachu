@@ -1,0 +1,17 @@
+body {
+  background: rgb(6, 4, 4);
+  background: linear-gradient(
+    0deg,
+    rgba(6, 4, 4, 1) 0%,
+    rgba(84, 123, 113, 1) 51%,
+    rgba(151, 211, 224, 1) 100%
+  );
+}
+
+.logo {
+  height: 150px;
+  background-image: url(../img/pocemon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
